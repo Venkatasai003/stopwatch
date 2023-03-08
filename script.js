@@ -36,7 +36,7 @@ document.getElementById('resetBtn').addEventListener('click',()=>{
 //display timer function
 function DisplayTimer(){
     milliseconds++
-    if(milliseconds===1000){
+    if(milliseconds===100){
         milliseconds=0
         seconds++
         if(seconds===60){
